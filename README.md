@@ -1,7 +1,8 @@
 OpenWirelessRouterAPI
 =====================
 
-The python REST API for the OpenWireless administrator gateway
+The python REST API for the OpenWireless administrator gateway.
+This is being built to replace the Luci API.
 
 1.  Run the shell command `sh sendImportantStuffToRouter`
 2.  Run the shell command `sh sendAppToRouter`
