@@ -2,6 +2,9 @@
 
 # Import modules for CGI handling
 import cgi, json
+from subprocess import check_output
+
+ping_speed = check_output("ping -c1 google.com | grep time", shell=True).split(':')[1].split('=')[3].split(' ')[0]
 
 result = {
 	"id": 1,
@@ -13,7 +16,7 @@ result = {
 			"uploadSpeedMetric": "mb/s",
 			"downloadSpeed": "37.5",
 			"downloadSpeedMetric": "mb/s",
-			"pingSpeed": "800",
+			"pingSpeed": ping_speed,
 			"pingSpeedMetric": "ms",
 			"connected": False
 		},
