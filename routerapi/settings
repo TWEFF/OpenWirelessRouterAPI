@@ -3,9 +3,11 @@
 # Import modules for CGI handling
 import cgi, json
 
+software_version = open("/etc/openwrt_release").read().split('\n')[1].split("\"")[1]
+
 result = {
 	"result": {
-	  "softwareVersion"               : "10.2.3",
+	  "softwareVersion"               : software_version,
 	  "ispDownloadSpeed"              : "12.8",
 	  "ispUploadSpeed"                : "3.6",
 	  "softwareVersionUpdateDate"     : "16/06/2014",
