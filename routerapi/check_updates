@@ -2,7 +2,7 @@
 
 import json
 
-result = {"result" :{ "status": "updating" }}
+result = {"result" :{ "status": "not-up-to-date" }}
 
 print "Content-Type:application/json\r\n"
 print json.JSONEncoder().encode(result)
