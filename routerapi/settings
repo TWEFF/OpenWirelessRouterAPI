@@ -35,6 +35,7 @@ result = {
 	  "openwirelessCustomChannel"     : "??",
 	  "openwirelessChannelBandwidth"  : openwireless.channel_bandwidth,
 	  "openwirelessVpnConfiguration"  : "None",
+    "openwirelessProtocol"          : "HTTPS",
     "openwirelessEncryption"        : "Unencrypted",
 	  "wanIp" : "192.168.1.4",
 	  "lanIp" : "184.251.4.14"
