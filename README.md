@@ -1,6 +1,10 @@
 OpenWirelessRouterAPI
 =====================
 
+This repository has been merged into TWEFF/OpenWireless - please contribute directly to that repository.
+
+
+
 The python REST API for the OpenWireless administrator gateway.
 This is being built to replace the Luci API.
 
